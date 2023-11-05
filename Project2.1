@@ -1,0 +1,18 @@
+number = 10
+total_marks = 0
+nomreh= 0
+while nomreh  20
+    for i in range(number)
+        mark = int(input(Enter the mark for lesson  + str(i+1) +  ))
+        total_marks += mark
+    
+    average = total_marks  number
+    print(Average nomreh, average)
+    
+    if average  20
+        print(You need to take the exam again.)
+        total_marks = 0
+    else
+        print(Congratulations! You have received a bicycle as a reward.)
+        
+        break
